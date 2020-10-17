@@ -11,7 +11,8 @@
         "scripts": [ 
             "js/action-items-utils.js",
             "packages/uuidv4.min.js", 
-            "js/background.js"],
+            "js/background.js"
+        ],
         "persistent": false
     },
     "browser_action": {
