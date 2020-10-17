@@ -1,0 +1,307 @@
+body {
+    width: 450px;
+    padding: 12px 12px 27px 12px;
+    display: flex;
+    overflow-y: scroll;
+}
+
+.main {
+    min-height: 562px;
+}
+
+.btn {
+    margin-right: 4px;
+}
+
+#progress-bar {
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+
+.actionItem__check * {
+    pointer-events: none;
+}
+
+.actionItem__delete * {
+    pointer-events: none;
+}
+
+.greeting img {
+    position: absolute;
+    height: 180px;
+    top: -50px;
+    right: -50px;
+    filter: drop-shadow(2px 0px 4px #222);
+}
+
+.greeting__type {
+    color: #2F2F2F;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+.greeting__name {
+    margin-bottom: 0;
+    color: #6c757d;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.greeting__name:hover i {
+    opacity: 1;
+}
+
+.greeting__name i {
+    opacity: 0;
+    transition: all 0.3s;
+    color: #6c757d;
+    font-size: 0.8em;
+    margin-left: 4px;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: center;
+}
+
+#progress-bar > svg {
+    width: 100%;
+    display: block;
+}
+
+.actionItem__delete {
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(151,151,151, 0.27);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.actionItem__delete:hover {
+    color: #D00000;
+}
+
+.actionInput__inputContainer .input-group-lg > .form-control {
+    border: 3px solid rgba(151,151,151, 0.27); 
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #727272;
+    height: 60px;
+}
+
+.actionInput__text {
+    margin-bottom: 0.5rem;
+}
+
+.actionItem__check {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.actionItem__check:hover i {
+    opacity: 1;
+}
+
+.actionItem__item {
+    background-color: #F6F6F6;
+    margin-top: 12px;
+    padding: 1rem;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all .25s ease;
+    transition-property: box-shadow, transform;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.actionItem__item:before {
+    content:"";
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    right:100%;
+    bottom:0;
+    background:#b0f1ab;
+    transition: 0.3s ease right;
+}
+
+.actionItem__item.completed:before {
+    right: 0;
+}
+
+.actionItem__item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 5px -2px #ccc;
+}
+
+
+.actionItem__main {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.actionItem__linkContainer {
+    margin-top: 4px;
+    z-index: 100;
+}
+
+.actionItem__link {
+    border: 2px solid rgb(151, 151, 151, 0.27);
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    height: 45px;
+    transition: border-color 0.2s ease-out;
+}
+
+.actionItem__favIcon {
+    height: 100%;
+    flex-basis: 45px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid rgba(151,151,151, 0.27);
+    transition: border-color 0.2s ease-out;
+}
+
+.actionItem__favIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.actionItem__title {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.actionItem__title span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.actionItem__checkBox i {
+    color: #56e452;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* .actionItem__item.completed {
+    background-color: #b0f1ab;
+} */
+
+.actionItem__item.completed .actionItem__checkBox i {
+    opacity: 1 !important;
+}
+
+
+.actionItem__item.completed .actionItem__checkBox {
+    border-color: #56e452;
+}
+
+.actionItem__item.completed .actionItem__link {
+    background-color: #b0f1ab;
+    border-color: #56e452;
+}
+
+.actionItem__item.completed .actionItem__favIcon {
+    border-color: #56e452;
+}
+
+.actionItem__text {
+    flex: 1;
+    color: #727272;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    word-break: break-word;
+    text-align: center;
+}
+
+.actionItem__checkBox {
+    border: 3px solid rgba(151, 151, 151, 0.27);
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionInput {
+    background-color: white;
+    z-index: 100;
+}
+
+.actionInput__inputContainer input {
+    margin-bottom: 0.5rem;
+}
+
+.actionInput__inputContainer input::placeholder {
+    color: rgba(151,151,151, 0.63);
+}
+
+.actionInput__inputContainer input:focus {
+    box-shadow: none;
+}
+
+.actionInput__suggestions {
+    margin-top: 0.5rem;
+}
+
+.actionInput__suggestions button {
+    border-width: 3px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.actionInput__suggestions .btn-outline-dark {
+    color: rgba(151,151,151, 0.63);
+    border-color: rgba(151,151,151, 0.63);
+}
+
+.actionInput__suggestions .btn-outline-dark:hover {
+    color: white;
+    background-color: rgba(151,151,151, 0.63);
+}
+
+.actionInput__suggestions .btn-outline-dark:focus {
+    box-shadow: none;
+}
+
+.actionItem__linkContainer a {
+    color: #727272;
+}
+
+.actionItem__linkContainer a:hover {
+    text-decoration: none;
+    color: #727272;
+}
+
+.actionItem__linkContainer a:hover .actionItem__link, .actionItem__linkContainer a:hover .actionItem__favIcon {
+    border-color: #32C5FF;
+}
+
+.modal-dialog {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

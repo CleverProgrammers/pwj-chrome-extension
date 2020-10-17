@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./packages/bootstrap.min.css">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="container-fluid main">
+      <div class="row">
+        <div class="col greeting">
+          <h2 class="greeting__type">Good Morning,</h2>
+          <h2 class="greeting__name"><span class="name__value"></span><i class="fas fa-pen"></i></h2>
+          <img id="greeting__image" src="./images/good-morning.png">
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col progress-container">
+          <div id="progress-bar">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col actionInput">
+          <h5 class="actionInput__text">TODAY'S PLAN OF ACTION</h5>
+          <div class="actionInput__inputContainer">
+            <form id="addItemForm">
+              <div class="input-group input-group-lg">
+                  <input name="itemText" type="text" class="form-control" placeholder="Add Action Item, press Enter">
+              </div>
+            </form>
+            <div class="actionInput__suggestions">
+                <button type="button" data-id="quick-action-1" data-text="Go to the gym" class="quick-action btn btn-outline-dark btn-sm">
+                  <i class="fas fa-plus"></i>
+                  Gym
+                </button>
+                <button type="button" data-id="quick-action-2" data-text="Read this site" class="quick-action btn btn-outline-dark btn-sm">
+                  <i class="fas fa-plus"></i>
+                  Link site for later
+                </button>
+                <button type="button" data-id="quick-action-3" data-text="Meditate" class="quick-action btn btn-outline-dark btn-sm">
+                  <i class="fas fa-plus"></i>
+                  Meditation
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col actionItems">
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="updateNameModal" tabindex="-1" role="dialog" aria-labelledby="updateNameModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="updateNameModalLabel">Edit your name</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <input type="text" class="form-control" id="input__name" aria-describedby="emailHelp" placeholder="Enter name">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" id="update-name" class="btn btn-success">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./packages/jquery-3.5.1.min.js"></script>
+    <script src="./packages/bootstrap.min.js"></script>
+    <script src="./packages/uuidv4.min.js"></script>
+    <script src="./packages/progressbar.js"></script>
+    <script src="./js/circle.js"></script>
+    <script src="./js/action-items-utils.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./packages/fontawesome.js"></script>
+  </body>
+</html>

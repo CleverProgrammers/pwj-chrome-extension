@@ -1,0 +1,33 @@
+{
+    "name": "Rocket Planner",
+    "version": "1.0",
+    "description": "The best way to plan your day and motivate you to take action!",
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [ 
+            "js/action-items-utils.js",
+            "packages/uuidv4.min.js", 
+            "js/background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icons16.png",
+            "32": "images/icons32.png",
+            "48": "images/icons48.png",
+            "128": "images/icons128.png"
+        }
+    },
+    "icons": {
+        "16": "images/icons16.png",
+        "32": "images/icons32.png",
+        "48": "images/icons48.png",
+        "128": "images/icons128.png"
+    },
+    "manifest_version": 2
+  }
