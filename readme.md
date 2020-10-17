@@ -27,4 +27,16 @@
 
 ## TODO(TOGETHER): Add circular progress 
 
+## TODO: Create HTML and Style for Input 
+
+## TODO: Create HTML and Style for Quick Action Buttons
+
+## TODO: Create HTML and Style for Action Items
+
+## TODO: Connect the Input to add Action Item to the front end 
+
+## TODO: Save the Action Item data in a database
+
+## TODO: Display the list of Action Items from the database
+
 
