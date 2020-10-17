@@ -29,7 +29,26 @@
 
 ## TODO: Create HTML and Style for Input 
 
+#### HTML/CSS Structure:
+
+```
+.actionInput
+    .actionInput__text
+    .actionInput__inputContainer
+        form #addItemForm
+            .input-group .input-group-lg
+
+```
+
+#### HINTS:
+- You have to target classes like `input::placeholder` and `input:focus` to rewrite default bootstrap styling
+- You can use **Google** to figure out HOW
+
 ## TODO: Create HTML and Style for Quick Action Buttons
+
+#### HINTS:
+- You have to overwrite bootstrap classes like `.btn-outline-dark` & `.btn-outline-dark:focus` & `.btn-outline-dark:hover` 
+- Use a class `actionInput__suggestions` for the parent container of the buttons
 
 ## TODO: Create HTML and Style for Action Items
 
