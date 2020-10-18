@@ -17,8 +17,8 @@
 
 ```
 .greeting
-    .greeting__type
-    .greeting__name
+    h2 .greeting__type
+    h2 .greeting__name
     img #greeting__image
 ```
 
