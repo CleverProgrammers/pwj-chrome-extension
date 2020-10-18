@@ -49,7 +49,8 @@
 
 #### HINTS:
 - You have to overwrite bootstrap classes like `.btn-outline-dark` & `.btn-outline-dark:focus` & `.btn-outline-dark:hover` 
-- Use a class `actionInput__suggestions` for the parent container of the buttons
+- Use a class `actionInput__suggestions` for the parent container of the buttons inside `.actionInput__inputContainer`
+- Use buttons from [here](https://getbootstrap.com/docs/4.0/components/buttons/)
 
 ## TODO: Create HTML and Style for Action Items
 
