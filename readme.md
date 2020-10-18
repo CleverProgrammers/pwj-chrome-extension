@@ -54,6 +54,25 @@
 
 ## TODO: Create HTML and Style for Action Items
 
+#### HTML Structure:
+
+```
+<div class="actionItem__item" >
+   <div class="actionItem__main">
+      <div class="actionItem__check">
+         <div class="actionItem__checkBox">
+            <i class="fas fa-check" aria-hidden="true"></i>
+         </div>
+      </div>
+      <div class="actionItem__text">Start on Module 2</div>
+      <div class="actionItem__delete"><i class="fas fa-times" aria-hidden="true"></i></div>
+   </div>
+</div>
+```
+
+#### HINTS:
+- You need to import `fontawesome.js` that is saved in `packages` folder
+
 ## TODO: Connect the Input to add Action Item to the front end 
 
 ## TODO: Save the Action Item data in a database
