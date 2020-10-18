@@ -73,10 +73,29 @@
 #### HINTS:
 - You need to import `fontawesome.js` that is saved in `packages` folder
 
-## TODO: Connect the Input to add Action Item to the front end 
+## TODO(TOGETHER): Connect the Input to add Action Item to the front end 
+- Handle form submission
+- Create `renderActionItem()` function
+- Add action item html to the action items list with class `.actionItems`
 
 ## TODO: Save the Action Item data in a database
 
 ## TODO: Display the list of Action Items from the database
+
+## TODO(TOGETHER): Clean up the styling
+
+- Clean up spacing and borders
+
+## TODO: Create HTML and Style of the completed action item
+
+## TODO: Add the ability to mark item completed
+
+## TODO: Udpate items progress in progressbar
+
+## TODO: Clean up functions and create an ActionItem Class
+
+## TODO: Add the ability to delete action items
+
+
 
 
