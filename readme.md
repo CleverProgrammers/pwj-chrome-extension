@@ -33,10 +33,11 @@
 
 ```
 .actionInput
-    .actionInput__text
+    h5 .actionInput__text
     .actionInput__inputContainer
         form #addItemForm
             .input-group .input-group-lg
+                input .form-control
 
 ```
 
