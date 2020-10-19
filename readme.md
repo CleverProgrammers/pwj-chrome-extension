@@ -106,7 +106,13 @@
 - Set the checkbox color to `#56e452`
 - Add `.completed` class to action item 
 
-## TODO: Add the ability to mark item completed
+## TODO(TOGETHER): Add the ability to mark item completed
+
+- Create an event listener on the checkmark element
+- Add a class `.completed` to the clicked element
+- Create a `markUnmarkCompleted()` function to set the item completed in chrome storage
+- Create a unique id for each element with `uuidv4`
+- Add the ability to unmark it completed as well
 
 ## TODO: Udpate items progress in progressbar
 
