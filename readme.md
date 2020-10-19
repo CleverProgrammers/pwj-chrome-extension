@@ -83,6 +83,8 @@
 #### HINTS:
 - Save the data in Chrome Sync
 - Create `add()` function
+- Add storge permission to `manifest.json`
+- Make sure to reload your chrome extension for `manifest.json` to take effect
 - You need to grab the list of action items first and then append the new item
 
 ## TODO: Display the list of Action Items from the database
