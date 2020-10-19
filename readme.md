@@ -104,6 +104,7 @@
 #### HINTS:
 - Set the background color of `.actionItem__item` to `#b0f1ab`
 - Set the checkbox color to `#56e452`
+- Add `.completed` class to action item 
 
 ## TODO: Add the ability to mark item completed
 
