@@ -80,6 +80,11 @@
 
 ## TODO: Save the Action Item data in a database
 
+#### HINTS:
+- Save the data in Chrome Sync
+- Create `add()` function
+- You need to grab the list of action items first and then append the new item
+
 ## TODO: Display the list of Action Items from the database
 
 ## TODO(TOGETHER): Clean up the styling
