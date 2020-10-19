@@ -101,6 +101,10 @@
 
 ## TODO: Create HTML and Style of the completed action item
 
+#### HINTS:
+- Set the background color of `.actionItem__item` to `#b0f1ab`
+- Set the checkbox color to `#56e452`
+
 ## TODO: Add the ability to mark item completed
 
 ## TODO: Udpate items progress in progressbar
