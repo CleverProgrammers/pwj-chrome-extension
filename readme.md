@@ -114,6 +114,15 @@
 - Create a unique id for each element with `uuidv4`
 - Add the ability to unmark it completed as well
 
+## TODO: Add the ability to uncheck a completed item
+
+#### HINTS:
+
+- Check if the classlist contains `.completed` class
+- If yes then we need to remove the `.completed` class and set it null in Chrome Storage
+- If no then we need to add `.completed` class and set it in Chrome Storage
+- Set the current date as completed value
+
 ## TODO: Udpate items progress in progressbar
 
 ## TODO: Clean up functions and create an ActionItem Class
