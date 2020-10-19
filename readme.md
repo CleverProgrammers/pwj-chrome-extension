@@ -89,6 +89,10 @@
 
 ## TODO: Display the list of Action Items from the database
 
+- Get all `actionItems` from 
+- Create `renderActionItems()` function
+- Loop through each action item and render it
+
 ## TODO(TOGETHER): Clean up the styling
 
 - Clean up spacing and borders
