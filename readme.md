@@ -89,7 +89,9 @@
 
 ## TODO: Display the list of Action Items from the database
 
-- Get all `actionItems` from 
+#### HINTS:
+
+- Get all `actionItems` from Chrome Storage
 - Create `renderActionItems()` function
 - Loop through each action item and render it
 
