@@ -130,7 +130,11 @@
 - Calculate the percentage of completed items over total items `completedItems/totalItems`
 - Use `circle.animate` to update the progress bar
 
-## TODO: Clean up functions and create an ActionItem Class
+## TODO(TOGETHER): Clean up functions and create an ActionItem Class
+- Move the `add()` function
+- Move the `markUnmarkCompleted()` function
+- Move the `setProgress()` function
+- Move the `circle` function to it's own file
 
 ## TODO: Add the ability to delete action items
 
