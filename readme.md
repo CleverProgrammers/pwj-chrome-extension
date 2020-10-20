@@ -125,9 +125,20 @@
 
 ## TODO: Udpate items progress in progressbar
 
+#### HINTS:
+- Create a `setProgress()` function
+- Calculate the percentage of completed items over total items `completedItems/totalItems`
+- Use `circle.animate` to update the progress bar
+
 ## TODO: Clean up functions and create an ActionItem Class
 
 ## TODO: Add the ability to delete action items
+
+## TODO: Add the ability to add Quick Action items
+
+## TODO: Create HTML and Style for "Link site for later"
+
+## TODO: Capture the link of the site from the curent tab in Chrome
 
 
 
