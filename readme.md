@@ -138,6 +138,12 @@
 
 ## TODO: Add the ability to delete action items
 
+#### HINTS:
+- Add an event listener to `.actionItem__delete`
+- Create a `handleDeleteEventListener()` function
+- Create a `remove()` function to remove the item from Chrome Storage
+- On hover of the `X` button, chane the color to `#D00000`
+
 ## TODO: Add the ability to add Quick Action items
 
 ## TODO: Create HTML and Style for "Link site for later"
