@@ -146,9 +146,58 @@
 
 ## TODO: Add the ability to add Quick Action items
 
-## TODO: Create HTML and Style for "Link site for later"
+#### HINTS:
+- Create an event listener for quick action buttons with a `createQuickActionListener()` function
+- Create an event handler `handleQuickActionListener()` function 
+- Add `data-text` attribute to every button as text that will be used for the action item
+- Use the `add()`
 
 ## TODO: Capture the link of the site from the curent tab in Chrome
+
+#### HINTS:
+- Create a `getCurrentTab()` function to get active tab
+- Use `chrome.tabs.query` to grab tab data
+- Structure website data like so
+```
+website = {
+    url: tab.url,
+    fav_icon: tab.favIconUrl,
+    title: tab.title
+}
+```
+- Add the website data to quick action item 
+- Make sure to add website data only if `Link site for later` is clicked
+
+## TODO(TOGETHER): Create HTML and Style for "Link site for later"
+
+- Create a `createLinkContainer()` function
+
+## TODO: Create the Update Name modal
+
+#### HINTS:
+- Use the Bootstrap modal from [here](https://getbootstrap.com/docs/4.0/components/modal/)
+- Create click listener on the `.greeting__name`
+- Open dialog on click of the name text
+
+## TODO(TOGETHER): Save the name from modal input
+
+## TODO: Set the greeting depending on time of day
+
+#### HINTS:
+- Create a `setGreeting()` function
+- Set the text in HTML using JavaScript
+- Time: 5 - 11 -> Good Morning
+- Time: 12 - 16 -> Good Afternoon
+- Time: 17 - 20 -> Good Evening
+- Time: 20 - 5 -> Good Night
+
+## TODO: Set the greeting image based on time of day
+
+#### HINTS:
+- Create a `setGreetingImage()` function
+- Set image based on type of the day
+
+
 
 
 
