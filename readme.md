@@ -157,6 +157,7 @@
 #### HINTS:
 - Create a `getCurrentTab()` function to get active tab
 - Use `chrome.tabs.query` to grab tab data
+- Create a `addQuickActionItem()` function in `action-items-utils.js` to add website data to action item
 - Structure website data like so
 ```
 website = {
@@ -165,7 +166,6 @@ website = {
     title: tab.title
 }
 ```
-- Add the website data to quick action item 
 - Make sure to add website data only if `Link site for later` is clicked
 
 ## TODO(TOGETHER): Create HTML and Style for "Link site for later"
