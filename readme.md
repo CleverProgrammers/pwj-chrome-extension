@@ -172,6 +172,16 @@ website = {
 
 - Create a `createLinkContainer()` function
 
+#### HTML Structure
+```
+a
+    .actionItem__link
+        .actionItem__favIcon
+            img
+        .actionItem__title
+            span
+```
+
 ## TODO: Create the Update Name modal
 
 #### HINTS:
