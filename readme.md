@@ -174,12 +174,13 @@ website = {
 
 #### HTML Structure
 ```
-a
-    .actionItem__link
-        .actionItem__favIcon
-            img
-        .actionItem__title
-            span
+.actionItem__linkContainer
+    a
+        .actionItem__link
+            .actionItem__favIcon
+                img
+            .actionItem__title
+                span
 ```
 
 ## TODO: Create the Update Name modal
