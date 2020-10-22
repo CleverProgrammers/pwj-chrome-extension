@@ -213,7 +213,7 @@ website = {
 - Create a `createUpdateNameListener()` for when `Save Changes` is clicked
 - Create a `handleUpdateName()` for retrieving the new name from input
 - Create a `saveName()` function to save name in Chrome Storage
-- Create a `setUsersName()` function to change the name text 
+- Create a `setUsersName()` function to change the name text in `.name__value`
 
 ## TODO: Set the greeting depending on time of day
 
