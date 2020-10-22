@@ -232,6 +232,14 @@ website = {
 - Create a `setGreetingImage()` function
 - Set image based on type of the day
 
+## TODO: Add a browser badge to show number of action items
+
+## TODO: Create a right click context menu for adding an action item
+
+## TODO: Add an EPIC animation for when adding a new action item
+
+## TODO: Add an EPIC animation for when deleting an action item
+
 
 
 
