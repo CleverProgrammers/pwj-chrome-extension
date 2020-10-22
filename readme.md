@@ -214,6 +214,7 @@ website = {
 - Create a `handleUpdateName()` for retrieving the new name from input
 - Create a `saveName()` function to save name in Chrome Storage
 - Create a `setUsersName()` function to change the name text in `.name__value`
+- Remember to set the user's name when when opening Chrome Extension
 
 ## TODO: Set the greeting depending on time of day
 
