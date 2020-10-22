@@ -199,7 +199,21 @@ website = {
 - Open dialog on click of the name text
 - Use the `modal-dialog-centered`
 
+## TODO: Finish styling for greeting name
+
+#### HINTS:
+- Add a pencil icon next to greeting name `fas fa-pen` within `.greeting__name`
+- Add a `.name__value` class within `.greeting__name` class that will contain the name value
+- Show the pencil icon only on hover of `.greeting__name`
+- Font size for pencil icon is `font-size: 0.8em;`
+
 ## TODO(TOGETHER): Save the name from modal input
+
+#### HINTS:
+- Create a `createUpdateNameListener()` for when `Save Changes` is clicked
+- Create a `handleUpdateName()` for retrieving the new name from input
+- Create a `saveName()` function to save name in Chrome Storage
+- Create a `setUsersName()` function to change the name text 
 
 ## TODO: Set the greeting depending on time of day
 
