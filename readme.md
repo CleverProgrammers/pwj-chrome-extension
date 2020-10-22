@@ -207,7 +207,7 @@ website = {
 - Show the pencil icon only on hover of `.greeting__name`
 - Font size for pencil icon is `font-size: 0.8em;`
 
-## TODO(TOGETHER): Save the name from modal input
+## TODO: Save the name from modal input
 
 #### HINTS:
 - Create a `createUpdateNameListener()` for when `Save Changes` is clicked
