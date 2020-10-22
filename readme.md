@@ -197,6 +197,7 @@ website = {
 - Use the Bootstrap modal from [here](https://getbootstrap.com/docs/4.0/components/modal/)
 - Create click listener on the `.greeting__name`
 - Open dialog on click of the name text
+- Use the `modal-dialog-centered`
 
 ## TODO(TOGETHER): Save the name from modal input
 
