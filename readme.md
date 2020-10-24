@@ -265,10 +265,23 @@ website = {
 - Make sure progress bar works with 0 completed items
 
 ## TODO(TOGETHER): Add an EPIC animation for when adding a new action item
+- Create an `animateDown()` function 
+- Animate from `opacity: 0` to `opacity: 1`
+- Animate the full height of element
+- Call the funcation after rendering it
 
 ## TODO: Add an EPIC animation for when deleting an action item
 
-## TODO: Add an EPIC animation for marking an action item completed
+#### HINTS:
+- Create an `animateUp()` function where we will animate the action item when deleting it
+- Use the jQuery animate function
+- Animate from `opacity: 1` to `opacity: 0`
+- Animate to `margin-top: marginTop: -${height}px`
+- Upon completion of the animation remove the element fully
+
+## TODO(TOGETHER): Add an EPIC animation for marking an action item completed
+
+-
 
 ## TODO: Upload the extension to Chrome Web Store
 
