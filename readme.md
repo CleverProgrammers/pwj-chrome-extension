@@ -234,13 +234,31 @@ website = {
 
 ## TODO: Add a browser badge to show number of action items
 
+#### HINTS:
+- Create a `setBrowserBadge()` function
+- Figure out how to set the badge in chrome
+- Call the `setBrowserBadge()` when setting the progress
+
 ## TODO: Create a right click context menu for adding an action item
 
-## TODO: Add an EPIC animation for when adding a new action item
+#### HINTS:
+- Create a `background.js` file
+- Add a context menu with the id `linkSiteMenu`
+- Capture the Context Menu click using `contextMenus.onClicked.addListener`
+- Add the quick action item
+- Make sure to update the badge after adding the item
+
+## TODO(TOGETHER): Add an EPIC animation for when adding a new action item
 
 ## TODO: Add an EPIC animation for when deleting an action item
 
+## TODO: Add an EPIC animation for marking an action item completed
 
+## TODO: Clean up
+
+## TODO: Upload the extension to Chrome Web Store
+
+We are DONE! LET'S GOOOOOOO!
 
 
 
