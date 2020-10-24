@@ -265,6 +265,13 @@ website = {
 - Provide padding for the update name modal
 - Make sure progress bar works with 0 completed items
 
+## TODO: Initialize action items on installation of the extension
+
+#### HINTS
+- Add functionality inside `background.js`
+- Use `chrome.runtime.onInstalled` function
+- Set action items in Chrome Storage to `[]`
+
 ## TODO(TOGETHER): Add an EPIC animation for when adding a new action item
 - Create an `animateDown()` function 
 - Animate from `opacity: 0` to `opacity: 1`
