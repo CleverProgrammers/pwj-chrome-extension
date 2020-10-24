@@ -255,6 +255,7 @@ website = {
 - Use the `.filter()` funcion
 - Filter out completed items before today `completedDate < currentDate`
 - Current date is today midnight
+- Make sure to filter action items before rendering them
 
 ## TODO(TOGETHER): Clean up
 
