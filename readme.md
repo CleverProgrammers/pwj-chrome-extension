@@ -261,6 +261,7 @@ website = {
 
 - Set progrss to `0` if there are 0 completed items
 - Add transition for `checkmark`
+- Fix link styling on completion of action item
 - Provide padding for the update name modal
 - Make sure progress bar works with 0 completed items
 
