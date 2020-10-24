@@ -248,13 +248,19 @@ website = {
 - Add the quick action item
 - Make sure to update the badge after adding the item
 
+## TODO(TOGETHER): Clean up
+
+- Set progrss to `0` if there are 0 completed items
+- Add transition for `checkmark`
+- Provide padding for the update name modal
+- Filter out completed items from previous days
+- Make sure progress bar works with 0 completed items
+
 ## TODO(TOGETHER): Add an EPIC animation for when adding a new action item
 
 ## TODO: Add an EPIC animation for when deleting an action item
 
 ## TODO: Add an EPIC animation for marking an action item completed
-
-## TODO: Clean up
 
 ## TODO: Upload the extension to Chrome Web Store
 
