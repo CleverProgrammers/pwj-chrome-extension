@@ -256,6 +256,14 @@ website = {
 - Filter out completed items from previous days
 - Make sure progress bar works with 0 completed items
 
+## TODO: Filter old completed action items 
+
+#### HINTS:
+- Create a `filterActionItems()` function
+- Use the `.filter()` funcion
+- Filter out completed items before today `completedDate < currentDate`
+- Current date is today midnight
+
 ## TODO(TOGETHER): Add an EPIC animation for when adding a new action item
 
 ## TODO: Add an EPIC animation for when deleting an action item
