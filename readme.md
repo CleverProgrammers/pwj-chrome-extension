@@ -284,12 +284,10 @@ website = {
 - Create an `animateUp()` function where we will animate the action item when deleting it
 - Use the jQuery animate function
 - Animate from `opacity: 1` to `opacity: 0`
-- Animate to `margin-top: marginTop: -${height}px`
+- Animate to `marginTop: -${height}px`
 - Upon completion of the animation remove the element fully
 
 ## TODO(TOGETHER): Add an EPIC animation for marking an action item completed
-
--
 
 ## TODO: Upload the extension to Chrome Web Store
 
